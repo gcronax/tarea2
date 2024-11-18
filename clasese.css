@@ -1,7 +1,9 @@
 html, body {
-            margin: 0;
-            margin-bottom: 0%;
-        }
+    height:100%;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+}
 .backgroun {
     background: #b7ebf7;
     margin: 0;
@@ -9,7 +11,7 @@ html, body {
 }
 
 .tit{
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     }
 .centro{
@@ -20,4 +22,18 @@ html, body {
     font-size: medium;
     margin-right: 4%;
 
+}
+.contenedor{
+    display: flex; 
+    padding: 20px;
+    
+}
+.cuadro{
+     background-color: #b7ebf7;
+     width: 25%; 
+     text-align: center;
+     margin:1%;
+}
+.cuadro img{
+    width: 100%;
 }
