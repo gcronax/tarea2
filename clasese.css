@@ -3,6 +3,7 @@ html, body {
     margin:0;
     display: flex;
     flex-direction: column;
+    
 }
 .backgroun {
     background: #b7ebf7;
@@ -25,16 +26,35 @@ html, body {
 
 }
 .contenedor{
-    display: flex; 
-    padding: 20px;
+    margin-top: 20px;
+    width: 80%;
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
     
 }
 .cuadro{
-     background-color: #b7ebf7;
-     width: 25%; 
-     text-align: center;
-     margin:1%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .cuadro img{
     width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    margin: 5px 0;
+    text-align: left;
 }
