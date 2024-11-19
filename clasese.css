@@ -7,16 +7,17 @@ html, body {
     
 }
 .cabecera {
-    background: #b7ebf7;
     margin: 0;
     padding: 0;
-    
+     
 }
 
 .tit{
     color: rgb(0, 0, 0);
     text-decoration: none;
-    }
+}
+
+
 .centro{
     text-align: center;
     
@@ -66,4 +67,14 @@ ul li {
 .label + * {
     color: gray;
     font-style: italic; 
+}
+
+.video-clase{
+    width: 50%; 
+    height: 25%;
+    object-fit: cover;
+    align-content: center;
+}
+.tabla{
+    border: 1;
 }
