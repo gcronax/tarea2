@@ -4,11 +4,13 @@ html, body {
     display: flex;
     flex-direction: column;
     
+    
 }
-.backgroun {
+.cabecera {
     background: #b7ebf7;
     margin: 0;
     padding: 0;
+    
 }
 
 .tit{
@@ -27,7 +29,7 @@ html, body {
 }
 .contenedor{
     margin-top: 20px;
-    width: 80%;
+    width: 90%;
     max-width: 90%;
     margin: auto;
     display: flex;
