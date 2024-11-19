@@ -28,7 +28,7 @@
         </h2>
     </div>
 
-
+    
 <div class="centro">
     <form name="miFormulario" action="pagina.php" method="Post"> 
         Nombre <br /> 
@@ -44,9 +44,18 @@
         <input type="file" value="Seleccionar archivo" /> 
         <br /> 
         <input type="submit" value="Guardar cambios" /> 
-        <input type="reset" value="Borrar Borrar los datos introducidos" /> 
+        <input type="reset" value="Borrar los datos introducidos" /> 
     </form>
     <br>
+
+    <audio id="miAudio">
+        <source src="media/audio.mp3" type="audio/mp3">    
+    </audio>
+    <br>
+    <button onclick="document.getElementById('miAudio').play()">Play</button>
+    <button onclick="document.getElementById('miAudio').pause()">Pause</button>
+   
+    
     <video autoplay muted loop class="video-clase" >
         <source src="media/prueba.mp4" type="video/mp4">
     </video> 

@@ -71,7 +71,7 @@ ul li {
 
 .video-clase{
     width: 50%; 
-    height: 25%;
+    height: 75%;
     object-fit: cover;
     align-content: center;
 }
