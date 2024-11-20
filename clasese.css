@@ -75,10 +75,8 @@ ul li {
     object-fit: cover;
     align-content: center;
 }
-.tabla{
-    border: 1px solid black;
-}
-th,td{
+
+table,th,td{
     border: 1px solid black;
 
 }
